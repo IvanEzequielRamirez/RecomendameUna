@@ -1,0 +1,1152 @@
+
+.Fixed{
+width: 90px;
+height: 100px;
+position: fixed;
+top: 0px;
+left: 0px;
+color: black;
+margin-left: 10px;;
+padding-right: 1px;
+text-indent: 0px;
+text-align: center;
+background-color: chartreuse;
+font-family: 'Pacifico', cursive;
+
+}
+
+/*GRID ESTRUCTURA INDEX*/
+
+.Body1{
+    margin: 0;
+    padding: 0;
+background-color: cyan;
+
+}
+
+.Fixed{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    
+}
+
+
+.ContenedorIndex{
+    background-color: mediumaquamarine;
+    display: grid;
+    grid-template-columns: 1200px 1200px 500px;
+    grid-template-rows: 100px 100px 800px 100px 100px 2px 2px;
+    grid-gap: 1rem;
+    grid-template-areas:
+    "boxx1 boxx1 boxx1"
+    "boxx2 boxx2 boxx2"
+    "boxx3 boxx3 boxx2"
+    "boxx4 boxx4 boxx4"
+    "boxx5 boxx5 boxx5"
+    "boxx6 boxx6 boxx6"
+    "boxx8 boxx8 boxx8"
+}
+
+.Fixed{
+    grid-area: boxx1;
+}
+
+.boxx1{
+    grid-area: boxx1;
+}
+
+.boxx2{
+    grid-area: boxx2;
+}
+
+.boxx3{
+    grid-area: boxx3;
+}
+
+.boxx4{
+    grid-area: boxx4;
+}
+
+.boxx5{
+    grid-area: boxx5;
+}
+
+.boxx6{
+    grid-area: boxx6;
+}
+
+.boxx7{
+    grid-area: boxx7;
+}
+
+.boxx8{
+    grid-area: boxx8;
+}
+
+
+
+/*FLEX ESTRUCTURA INDEX*/
+
+.ContenedorIndex{
+    display: flex;
+}
+
+.Fixed{
+display: flex;
+flex-direction: row;
+justify-content: start;
+}
+
+.boxx1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 220px;
+}
+
+.boxx2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.h1Inicio{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.ImagenFondo{
+    display: flex;
+    flex-direction: column;
+    margin-right: -100px;
+}
+
+.boxx3{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-decoration: maroon;
+}
+
+
+.boxx4{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.boxx5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.Licorice{
+    display: flex;
+    flex-direction: column;
+}
+
+.Batman{
+    display: flex;
+    flex-direction: column;    
+}
+
+.boxx6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: end;
+}
+
+.boxx7{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    font-family: cursive;
+}
+
+.boxx8{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+
+
+/*Recomendadas*/
+
+.BodyRecomendadas{
+    background-color: darkseagreen;
+}
+
+.Contenedor{
+
+        display: grid;
+        grid-template-columns: 1200px  1200px 700px 700px 700px 700px;
+        grid-template-rows: 100px 100px 800px 2px 2px 2px 2px;
+        grid-gap: 1rem;
+        grid-template-areas:
+        "box1 . . box12 box12 box12"
+        "box2 box2 box2 box2 box2 box2"
+        "box3 box3 box3 box3 box3 box3"
+        "box3 box3 box3 box3 box3 box3"
+        ". box4 box4 . . ."
+        ". . . . box6 box6"
+        ". . . . . box7";
+    }
+
+
+/* GRIDS*/
+
+.box1{
+grid-area: box1;
+text-align: center;
+
+}
+
+.box12{
+
+    grid-area: box12;
+}
+
+.box2{
+
+    grid-area: box2;
+    
+}
+
+.box5{
+
+    grid-area: box5;
+}
+
+.box4{
+    grid-area: box4;
+}
+
+.box3{
+grid-area: box3;
+}
+
+
+.box6{
+    grid-area: box6;
+}
+
+.box7{
+    grid-area: box7;
+}
+
+
+/*FLEX*/
+
+.box1{
+    display: flex;
+    flex-direction:row-reverse;
+   list-style-type: none;
+   font-size: 20px;
+   font-family: cursive;
+}
+
+.box12{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-bottom: 100px;
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box2{
+    display: flex;
+    flex-direction: row;
+}
+.box3{
+    display: flex;
+    flex-direction: row;
+}
+
+.box5{
+    display: flex;
+    flex-direction: column;
+}
+
+.box6{
+    display: flex;
+    flex-direction: column;
+}
+
+.box7{
+    display: flex;
+    flex-direction: column;
+}
+
+.box12{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Estilos CSS*/
+
+.TituloParrafoLorca{
+    background-color: chartreuse;
+    color: darkblue;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.ParrafoLorca{
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+}
+
+.FotoCine{
+margin-left: 50px;
+margin-bottom: 100px;
+}
+
+.MapaCine{
+margin-left: 50px;
+margin-bottom: 100px;
+}
+
+.box4{
+margin-top: -50px;
+margin-left: -10px;
+}
+
+.box6{
+    margin-top: -150px;
+    margin-left: 1100px;
+
+}
+
+.box7{
+    margin-left: -500px;
+    font-size: 30px;
+    font-family: cursive;
+    text-decoration: darkorchid;
+ 
+}
+
+
+/*Terror*/
+
+.BodyTerror{
+    margin: 0;
+    padding: 0;
+    background-color: mediumpurple;
+}
+
+
+/*GRIDS*/
+
+.ContenidoTerror{
+    display: grid;
+        grid-template-columns: 1500px 1500px 1500px;
+        grid-template-rows: 100px 100px 1300px 1300px 1300px 200px 200px;
+        grid-gap: 1rem;
+        grid-template-areas:
+        "BoxTerror1 . ."
+        ". . BoxTerror2"
+        "BoxTerror3 BoxTerror3 BoxTerror3"
+        ". . BoxTerror4"
+        "BoxTerror5 . ."
+        "BoxTerror6 BoxTerror6 BoxTerror6"
+        "BoxTerror7 BoxTerror7 BoxTerror7";
+
+}
+
+
+.BoxTerror1{
+    grid-area: BoxTerror1;
+}
+
+.BoxTerror2{
+    grid-area: BoxTerror2;
+}
+
+.BoxTerror3{
+    grid-area: BoxTerror3;
+}
+
+.BoxTerror4{
+    grid-area: BoxTerror4;
+}
+
+.BoxTerror5{
+    grid-area: BoxTerror5;
+}
+
+.BoxTerror6{
+    grid-area: BoxTerror6;
+}
+
+.BoxTerror7{
+    grid-area: BoxTerror7;
+}
+
+/*FLEX*/
+
+.ContenidoTerror{
+    display: flex;
+    flex-direction: column;
+}
+
+.BoxTerror1{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    color: blanchedalmond;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.BoxTerror2{
+    display: flex;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+   justify-content: center;
+}
+
+.BoxTerror3{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-left: 20px;
+}
+
+.ChildsPlay{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.TablaTerror{
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+}
+
+.BoxTerror4{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.BoxTerror5{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.BoxTerror6{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: chartreuse;
+}
+
+/*Thriller*/
+
+.BodyThriller{
+    margin: 0;
+    padding: 0;
+    background-color: cyan;
+}
+
+/*GRIDS*/
+
+.ContenidoThriller{
+    display: grid;
+    grid-template-columns: 1200px;
+    grid-template-rows: 50px 100px 500px 100px 100px 50px;
+    grid-gap: 1rem;
+    grid-template-areas:
+    "BoxThriller1"
+    "BoxThriller2"
+    "BoxThriller3"
+    "BoxThriller4"
+    "BoxThriller5"
+    "BoxThriller7"; 
+}
+
+
+.BoxThriller1{
+    grid-area: BoxThriller1;
+}
+
+.BoxThriller2{
+    grid-area: BoxThriller2;
+}
+
+.BoxThriller3{
+    grid-area: BoxThriller3;
+}
+
+.BoxThriller4{
+    grid-area: BoxThriller4;
+}
+
+.BoxThriller5{
+    grid-area: BoxThriller5;
+}
+
+.BoxThriller7{
+    grid-area: BoxThriller7;
+}
+
+/*FLEX*/
+
+
+.BoxThriller1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: blanchedalmond;
+    font-size: 25px;
+    list-style-type: none;
+    margin-bottom: 60px;
+}
+
+.BoxThriller2{
+    display: flex;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+   justify-content: center;
+}
+
+.BoxThriller3{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-left: 180px;
+}
+
+.ParrafoThriller1{
+    display: flex;
+    margin-left: 90px;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.TablaThriller{
+    display: flex;
+    flex-direction: column;
+    margin-top: 210px;
+    margin-left: 90px;
+}
+
+.BoxThriller4{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 50px;
+    
+}
+
+.BoxThriller5{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.BoxThriller7{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color:darkmagenta;
+}
+
+
+/*Drama*/
+
+.BodyDrama{
+    margin: 0;
+    padding: 0;
+    background-color:darksalmon;
+    display: grid;
+    ; 
+}
+
+/*GRIDS*/
+
+.ContenidoDrama{
+    display: grid;
+    grid-template-columns: 1800px 1500px 1500px;
+    grid-template-rows: 100px 100px 1200px 1200px 1200px 200px 80px;
+    grid-gap: 1rem;
+    grid-template-areas:
+    ". . BoxDrama1"
+    ". BoxDrama2 ."
+    "BoxDrama3 BoxDrama3 BoxDrama3"
+    ". . BoxDrama4"
+    "BoxDrama5 . ."
+    "BoxDrama7 BoxDrama7 BoxDrama7"
+    ; 
+}
+
+
+.BoxDrama1{
+    grid-area: BoxDrama1;
+}
+
+.BoxDrama2{
+    grid-area: BoxDrama2;
+}
+
+.BoxDrama3{
+    grid-area: BoxDrama3;
+}
+
+.BoxDrama4{
+    grid-area: BoxDrama4;
+}
+
+.BoxDrama5{
+    grid-area: BoxDrama5;
+}
+
+.BoxDrama7{
+    grid-area: BoxDrama7;
+}
+
+/*FLEX*/
+
+
+.ContenidoDrama{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.BoxDrama1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: blanchedalmond;
+    font-size: 30px;
+    list-style-type: none;
+    margin-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.BoxDrama2{
+    display: flex;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+   justify-content: center;
+}
+
+.BoxDrama3{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-left: 20px;
+}
+
+.ParrafoDrama{
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    margin-top: 80px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.FotoDrama{
+    width: 400px;
+    height: 650px;
+}
+
+.TablaDrama1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 380px;
+}
+
+.BoxDrama4{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+}
+
+.BoxDrama5{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    margin-left: 10px;
+    color: darkslateblue;
+}
+
+.BoxDrama7{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color:darkslategray
+}
+
+
+/*Terror Drama*/
+
+@media screen and (max-width: 500px){
+
+.BoxDrama1{
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.BoxDrama2{
+    justify-content: start;
+    font-size: 15px;
+    margin-top: -50px;
+
+}
+
+.BoxDrama3{
+    flex-direction: column;
+    justify-content: start;
+}
+
+.FotoDrama{
+    width: 200px;
+    height: 250px;
+}
+
+.BoxDrama4{
+    flex-direction: column;
+    justify-content: start;
+    font-size: 15px;
+    text-align: right;
+    margin-top: 80px;
+}
+
+.ParrafoDrama{
+    display: flex;
+    margin-top: 10px;
+    margin-right: -30px;
+   flex-direction: column;
+    justify-content: start;
+    font-size: 10px;
+}
+
+.TrailerDrama{
+    display: flex;
+    justify-content: start;
+    width: 60px;
+    height: 80px;
+    margin-bottom: -20px;
+}
+
+.TablaDrama1{
+    display: flex;
+    justify-content: start;
+    width: 30px;
+    height: 50px;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.BoxDrama5{
+    flex-direction: column;
+    justify-content: start;
+    font-size: 15px;
+    margin-bottom: -30px;
+}
+
+.RedesDrama{
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 100px;
+}
+
+/*Terror Movil*/
+
+.BoxTerror1{
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.BoxTerror2{
+    justify-content: start;
+    font-size: 15px;
+    margin-top: 10px;
+   margin-left: 150px;
+
+}
+
+.BoxTerror3{
+    flex-direction: column;
+    justify-content: start;
+}
+
+.FotoTerror{
+    width: 280px;
+    height: 450px;
+    margin-left: 80px;
+}
+
+.BoxTerror4{
+    flex-direction: row;
+    justify-content: start;
+    font-size: 15px;
+    text-align: right;
+    margin-top: 80px;
+}
+
+.ParrafoTerror{
+    display: flex;
+    margin-top: 0;
+    margin-left: 0;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 10px;
+}
+
+
+
+.TablaTerror1{
+    display: flex;
+    justify-content: start;
+    width: 30px;
+    height: 50px;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.BoxTerror5{
+    flex-direction: column;
+    justify-content: start;
+    font-size: 15px;
+    margin-bottom: -30px;
+}
+
+}
+
+/*Thriller Movil*/
+
+@media screen and (max-width: 507px){
+
+.BoxThriller1{
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+
+.BoxThriller2{
+    justify-content: start;
+    font-size: 15px;
+    margin-top: 80px;
+
+
+}
+
+.FotoThriller1{
+    width: 250px;
+    height: 350px;
+  margin-left: -150px;
+}
+
+.ParrafoThriller1{
+    display: flex;
+    flex-direction: column;
+   margin-left: -150px;
+    margin-bottom: 100px;
+}
+
+.BoxThriller3{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+   
+}
+
+
+.TablaThriller{
+    width: 180px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: -150px;
+}
+
+
+.BoxThriller4{
+    flex-direction: row;
+    justify-content: start;
+    font-size: 15px;
+    margin-top: 700px;
+}
+
+
+.BoxThriller5{
+    flex-direction: column;
+    justify-content: start;
+    font-size: 15px;
+    margin-top: 650px;
+}
+
+
+.TrailerThriller{
+    width: 300px;
+    height: 200px;
+    margin-top: -50px;
+    margin-left: -150px;  
+}
+
+
+.BoxThriller7{
+    margin-top: 80px;
+    margin-left: -900px;
+    font-size: 21px;
+}
+
+}
+
+/*Recomendados Movil*/
+
+@media screen and (max-width: 507px){
+
+.Contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box1{
+    flex-direction: column;
+    margin-left: -20px;
+    list-style-type: none;
+}
+
+.box12{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 18px;
+    margin-left: -5px;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    list-style-type: none;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.box5{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.box6{
+    display: flex;
+    flex-direction: column;
+  justify-content: start;
+  margin-top: 100px;
+  margin-left: -5px;
+  font-size: 20px;
+}
+
+.FotoCine{
+    width: 400px;
+    height: 350px;
+
+    }
+    
+    .MapaCine{
+        width: 400px;
+        height: 350px;
+    }
+
+}
+
+/*Terror Movil*/
+
+
+@media screen and (max-width: 507px){
+
+    .BoxTerror1{
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+    
+    
+    .BoxTerror2{
+        justify-content: start;
+        font-size: 15px;
+        margin-top: 20px;
+        font-size: 15px;
+    
+    
+    }
+    
+    .FotoTerror{
+        width: 250px;
+        height: 350px;
+      margin-left: -10px;
+    }
+    
+    .ParrafoTerror1{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        font-size: 15px;
+    }
+    
+    .BoxTerror3{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+       
+    }
+    
+    
+    .TablaTerror{
+        width: 160px;
+        height: 160px;
+    margin-top: -2px;
+    margin-left: -2px;
+    }
+    
+    
+    .BoxTerror4{
+        flex-direction: row;
+        justify-content: start;
+        font-size: 15px;
+        margin-bottom: -100px;
+        margin-top: 200px;
+    }
+    
+    
+    .BoxTerror5{
+        flex-direction: column;
+        justify-content: start;
+        font-size: 15px;
+        margin-top: 150px;
+    }
+    
+    
+    .VideoTerror1{
+        width: 180px;
+        height: 180px;
+ 
+    }
+    
+    
+    .BoxTerror7{
+        margin-top: 20px;
+        margin-left: -900px;
+        font-size: 21px;
+    }
+    
+    }
+    
+/*Index Movil*/
+
+@media screen and (max-width: 507px){
+
+.boxx1{
+    flex-direction: column;
+    margin-left: -100px;
+}
+
+.boxx2{
+    width: 450px;
+    height: 450px;
+
+}
+
+.boxx3{
+    margin-top: -100px;
+    flex-direction: column;
+}
+
+.h1Inicio{
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.boxx4{
+    flex-direction: column;
+}
+
+.boxx5{
+    flex-direction: column;
+}
+
+.Video1Inicio{
+    width: 380px;
+    height: 250px;
+}
+
+.Video2Inicio{
+    width: 380px;
+    height: 250px;
+}
+
+.boxx6{
+    flex-direction:row;
+    font-size: 15px;
+    margin-left: -150px;
+}
+
+.boxx7{
+    font-size: 15px;
+    flex-direction: column;
+}
+
+
+}

@@ -20,7 +20,7 @@ font-family: 'Pacifico', cursive;
 .Body1{
     margin: 0;
     padding: 0;
-background-color: cyan;
+    background-image: linear-gradient( to bottom, green, white)
 
 }
 
@@ -98,6 +98,24 @@ flex-direction: row;
 justify-content: start;
 }
 
+@keyframes aparecer3{
+
+    0% {opacity: 10%;
+    }
+
+    40% {opacity: 40%;
+    }
+
+
+    80% {opacity: 80%;
+    }
+
+    100% {opacity: 100%;
+    }
+
+
+}
+
 .boxx1{
     display: flex;
     flex-direction: column;
@@ -116,6 +134,10 @@ justify-content: start;
     flex-direction: column;
     margin-bottom: 10px;
     text-align: center;
+    animation-name: aparecer3;
+    animation-duration: 3s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
 }
 
 .ImagenFondo{
@@ -134,6 +156,10 @@ justify-content: start;
     margin-top: 30px;
     margin-bottom: 50px;
     text-decoration: maroon;
+    animation-name: aparecer3;
+    animation-duration: 3s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
 }
 
 
@@ -158,11 +184,13 @@ justify-content: start;
 .Licorice{
     display: flex;
     flex-direction: column;
+    transform: scale(0.8);
 }
 
 .Batman{
     display: flex;
     flex-direction: column;    
+    transform: scale(0.8);
 }
 
 .boxx6{
@@ -185,7 +213,8 @@ justify-content: start;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 50px;
-    margin-top: 80px;
+   margin-left: 500px;
+    transform: rotate(18deg);
 }
 
 
@@ -193,7 +222,8 @@ justify-content: start;
 /*Recomendadas*/
 
 .BodyRecomendadas{
-    background-color: darkseagreen;
+    background-image: linear-gradient(to bottom, green, white);
+    
 }
 
 .Contenedor{
@@ -257,12 +287,37 @@ grid-area: box3;
 
 /*FLEX*/
 
+@keyframes aparecer1{
+
+    0% {opacity: 10%;
+    }
+
+    40% {opacity: 40%;
+    }
+
+
+    80% {opacity: 80%;
+    }
+
+    100% {opacity: 100%;
+    }
+
+
+}
+
 .box1{
     display: flex;
     flex-direction:row-reverse;
    list-style-type: none;
    font-size: 20px;
    font-family: cursive;
+   animation-name: aparecer1;
+   animation-duration: 3s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+   
+
+  
 }
 
 .box12{
@@ -303,34 +358,66 @@ grid-area: box3;
 .box12{
     display: flex;
     flex-direction: column;
+    transform: rotate(10deg);
+    animation-name: aparecer;
+    animation-duration: 3s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
 }
 
 
 /*Estilos CSS*/
 
+@keyframes colorfondo{
+    0%{
+        background-color: red;
+    }
+    40%{
+    background-color: rosybrown;
+    }
+
+    80%{
+        background-color: slateblue;
+    }
+
+    100%{
+        background-color:slategray;
+    }
+
+}
+
 .TituloParrafoLorca{
-    background-color: chartreuse;
-    color: darkblue;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 50px;
     margin-left: 20px;
+    animation-name: colorfondo;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
 }
 
 .ParrafoLorca{
     margin-left: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 50px;
+    animation-name: colorfondo;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+
 }
 
 .FotoCine{
 margin-left: 50px;
 margin-bottom: 100px;
+transform: scale(1);
 }
 
 .MapaCine{
 margin-left: 50px;
 margin-bottom: 100px;
+transform: scale(1);
 }
 
 .box4{
@@ -358,11 +445,32 @@ margin-left: -10px;
 .BodyTerror{
     margin: 0;
     padding: 0;
-    background-color: mediumpurple;
+    background-image: linear-gradient( to right, green, white)
 }
 
 
 /*GRIDS*/
+
+@keyframes colorfondo2{
+    0%{
+        background-color: green;
+    }
+    40%{
+    background-color: greenyellow;
+    }
+
+    80%{
+        background-color: blueviolet;
+    }
+
+    100%{
+        background-color:slategray;
+    }
+
+}
+
+
+
 
 .ContenidoTerror{
     display: grid;
@@ -423,6 +531,10 @@ margin-left: -10px;
     color: blanchedalmond;
     font-size: 25px;
     list-style-type: none;
+    animation-name: colorfondo2;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
 }
 
 .BoxTerror2{
@@ -444,12 +556,14 @@ margin-left: -10px;
     display: flex;
     margin-left: 20px;
     flex-direction: column;
+    transform: translate(10px, 50px);
 }
 
 .TablaTerror{
     display: flex;
     flex-direction: column;
     margin-top: 180px;
+    transform:translate(-40px, 15px)
 }
 
 .BoxTerror4{
@@ -473,7 +587,8 @@ margin-left: -10px;
     display: flex;
     justify-content: center;
     font-size: 40px;
-    color: chartreuse;
+    color: red;
+    transform: rotate(18deg);
 }
 
 /*Thriller*/
@@ -481,10 +596,28 @@ margin-left: -10px;
 .BodyThriller{
     margin: 0;
     padding: 0;
-    background-color: cyan;
+    background-image: linear-gradient( to bottom, cyan, white)
 }
 
 /*GRIDS*/
+
+@keyframes colorfondo14{
+    0%{
+        background-color:red;
+    }
+    40%{
+    background-color:salmon;
+    }
+
+    80%{
+        background-color: royalblue;
+    }
+
+    100%{
+        background-color:slateblue;
+    }
+
+}
 
 .ContenidoThriller{
     display: grid;
@@ -527,6 +660,23 @@ margin-left: -10px;
 
 /*FLEX*/
 
+@keyframes aparecer{
+
+    0% {opacity: 10%;
+    }
+
+    40% {opacity: 40%;
+    }
+
+
+    80% {opacity: 80%;
+    }
+
+    100% {opacity: 100%;
+    }
+
+
+}
 
 .BoxThriller1{
     display: flex;
@@ -536,6 +686,11 @@ margin-left: -10px;
     font-size: 25px;
     list-style-type: none;
     margin-bottom: 60px;
+    animation-name: aparecer;
+    animation-duration: 3s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+
 }
 
 .BoxThriller2{
@@ -544,6 +699,10 @@ margin-left: -10px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
    justify-content: center;
+   animation-name: colorfondo14;
+   animation-duration: 6s;
+   animation-timing-function: ease-in;
+   animation-iteration-count: infinite;
 }
 
 .BoxThriller3{
@@ -589,8 +748,9 @@ margin-left: -10px;
 .BoxThriller7{
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    font-size: 30px;
     color:darkmagenta;
+    transform: rotate(18deg);
 }
 
 
@@ -599,7 +759,7 @@ margin-left: -10px;
 .BodyDrama{
     margin: 0;
     padding: 0;
-    background-color:darksalmon;
+    background-image: linear-gradient( to left, darksalmon, white);
     display: grid;
     ; 
 }
@@ -648,6 +808,23 @@ margin-left: -10px;
 
 /*FLEX*/
 
+@keyframes colorfondo5{
+    0%{
+        background-color:chocolate;
+    }
+    40%{
+    background-color:coral;
+    }
+
+    80%{
+        background-color: orange;
+    }
+
+    100%{
+        background-color:yellow;
+    }
+
+}
 
 .ContenidoDrama{
     display: flex;
@@ -664,6 +841,11 @@ margin-left: -10px;
     list-style-type: none;
     margin-bottom: 60px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 60px;
+    animation-name: colorfondo5;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
 }
 
 .BoxDrama2{
@@ -694,6 +876,7 @@ margin-left: -10px;
 .FotoDrama{
     width: 400px;
     height: 650px;
+    transform: translate(10px, 50px);
 }
 
 .TablaDrama1{
@@ -727,7 +910,8 @@ margin-left: -10px;
     display: flex;
     justify-content: center;
     font-size: 40px;
-    color:darkslategray
+    color:darkslategray;
+    transform: rotate(18deg);
 }
 
 
@@ -921,6 +1105,7 @@ margin-left: -10px;
     height: 250px;
     margin-top: 10px;
     margin-left: -150px;
+    transform:translate(-40px, 15px)
 }
 
 

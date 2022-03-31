@@ -733,7 +733,11 @@ margin-left: -10px;
 
 /*Terror Drama*/
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 507px){
+
+.ContenidoDrama{
+    flex-direction: column;
+}
 
 .BoxDrama1{
     flex-direction: column;
@@ -871,6 +875,10 @@ margin-left: -10px;
 /*Thriller Movil*/
 
 @media screen and (max-width: 507px){
+
+.ContenidoDrama{
+    flex-direction: column;
+}
 
 .BoxThriller1{
     flex-direction: column;
@@ -1030,7 +1038,6 @@ margin-left: -10px;
         margin-top: 20px;
         font-size: 15px;
     
-    
     }
     
     .FotoTerror{
@@ -1092,7 +1099,7 @@ margin-left: -10px;
         font-size: 21px;
     }
     
-    }
+}
     
 /*Index Movil*/
 
@@ -1100,12 +1107,16 @@ margin-left: -10px;
 
 .boxx1{
     flex-direction: column;
-    margin-left: -100px;
+    margin-left: 30px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 80px;
+    margin-top: 100px;
 }
 
 .boxx2{
-    width: 450px;
-    height: 450px;
+    width: 250px;
+    height: 250px;
 
 }
 
@@ -1128,12 +1139,12 @@ margin-left: -10px;
 }
 
 .Video1Inicio{
-    width: 380px;
+    width: 280px;
     height: 250px;
 }
 
 .Video2Inicio{
-    width: 380px;
+    width: 280px;
     height: 250px;
 }
 
@@ -1148,5 +1159,18 @@ margin-left: -10px;
     flex-direction: column;
 }
 
+.TituloTrailer1{
+    font-size: 10px;
+}
+
+.TituloTrailer2{
+    font-size: 10px;
+}
+
+.boxx8{
+    font-size: 20px;
+}
 
 }
+
+
